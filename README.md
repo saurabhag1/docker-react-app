@@ -8,15 +8,15 @@ This repository demonstrates how to deploy a React.js application using Docker o
 
 ### 1. **Rebuild the Docker Image**
 After making necessary changes to the Dockerfile, rebuild the Docker image with the following command:
-
-```bash
-docker build -t my-react-app .
+docker build -t my-react-app
 
 ### 2. **Run the Docker Container**
 docker run -d -p 3000:3000 --name react-container my-react-app
 
 ### 3. **Access the App*
 http://<EC2-Public-IP>:3000
+
+
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
