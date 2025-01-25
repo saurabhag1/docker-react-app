@@ -2,6 +2,8 @@
 
 # React App Docker Deployment
 
+![Image Description](./image.png)
+
 This repository demonstrates how to deploy a React.js application using Docker on an EC2 instance.
 
 ## Steps to Build and Run the Docker Container
