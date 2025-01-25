@@ -14,7 +14,7 @@ docker build -t my-react-app
 docker run -d -p 3000:3000 --name react-container my-react-app
 
 ### 3. **Access the App*
-http://<EC2-Public-IP>:3000
+http://EC2-Public-IP:3000
 
 
 
